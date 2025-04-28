@@ -1,0 +1,18 @@
+.booked-services {
+    padding: 2rem;
+  }
+  
+  .booking-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #fdfdfd;
+  }
+  
+  .booking-card button {
+    margin: 0.5rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+  }
+  

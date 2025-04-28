@@ -1,0 +1,33 @@
+.user-layout {
+    display: flex;
+    min-height: 100vh;
+    background: #fefefe;
+  }
+  
+  .user-main {
+    flex: 1;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  .user-layout {
+    display: flex;
+  }
+  
+  /* Main content */
+  .user-main {
+  
+    padding: 2rem;
+    flex-grow: 1;
+    background-color: #fefefe;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+  }
+  
+  /* Optional responsive tweaks */
+  @media (max-width: 768px) {
+    .user-main {
+      margin-left: 0;
+    }
+  }
+  
+  

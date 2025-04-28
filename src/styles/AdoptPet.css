@@ -1,0 +1,48 @@
+.adopt-pet-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-details {
+  margin-bottom: 1.5rem;
+}
+
+.user-details input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pet-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pet-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+}
+
+.pet-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.adopt-btn {
+  background-color: #1982c4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

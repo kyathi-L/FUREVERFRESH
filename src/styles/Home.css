@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #000;
+}
+
+/* Container for the home section */
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('https://wallpapercave.com/wp/wp4386586.jpg') no-repeat center top;
+  background-size: cover;
+  position: relative;
+  padding: 0 1rem;
+}
+
+/* Content inside the hero section */
+.home-content {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1.3rem;
+  color: white;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+
+/* Highlight part in the heading */
+.highlight {
+  color: #ffb703;
+}
+
+/* CTA button */
+.home-btn {
+  background: #f73065;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #1982c4;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .home-content {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .home-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}

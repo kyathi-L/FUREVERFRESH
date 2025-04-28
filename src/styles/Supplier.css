@@ -1,0 +1,81 @@
+/* Container Styles */
+.supplier-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  width: 100vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Page Title */
+.supplier-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* Table Styles */
+.supplier-table {
+  width: 100%;
+  max-width: 1000px;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.supplier-table th,
+.supplier-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 0.95rem;
+}
+
+.supplier-table th {
+  background-color: #007bff;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85rem;
+}
+
+.supplier-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.supplier-table tr:hover {
+  background-color: #eef3f8;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Lottie Loader Styling */
+.lottie-loader {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .supplier-table th,
+  .supplier-table td {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .supplier-container {
+    padding: 1rem;
+  }
+}

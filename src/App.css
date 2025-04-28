@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  padding-top: 60px; /* Adjust based on navbar height */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Top Bar for All Pages Except Services */
+.top-bar {
+  width: 100%;
+  height: 80px; /* Increased height */
+  background-color: #2bad4e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px; /* More spacing from left */
+  z-index: 1000;
+}
+
+/* Paw Care Text Styling */
+.pawcare-text {
+  color: white;
+  font-size: 28px; /* Bigger font */
+  font-weight: bold;
+  text-transform: uppercase; /* Optional: Makes text uppercase */
+}
+
+/* For the body and html */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* For your wrapper div (e.g., <div className="app-wrapper">) */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Your content wrapper */
+.main-content {
+  flex: 1;
+}
+
+/* Your footer */
+.footer {
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+html, body {
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.content {
+  padding-top: 80px; /* prevent navbar hiding content */
+}
